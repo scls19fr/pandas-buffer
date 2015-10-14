@@ -8,6 +8,14 @@ Pandas Buffer
 
 A `Python <https://www.python.org/>`_ `Pandas <http://pandas.pydata.org/>`_ implementation of buffer.
 
+Install
+-------
+
+.. code:: bash
+
+    $ pip install pandas-buffer
+
+
 Ring Buffer
 -----------
 
@@ -25,13 +33,59 @@ Usage
 
     In [2]: N = 10
 
+Development
+-----------
 
-Install
--------
+You can help to develop this library.
 
-.. code:: bash
+Issues
+~~~~~~
 
-    $ pip install pandas_buffer
+You can submit issues using https://github.com/scls19fr/pandas-buffer/issues
+
+Clone
+~~~~~
+
+You can clone repository to try to fix issues yourself using:
+
+::
+
+    $ git clone https://github.com/scls19fr/pandas-buffer.git
+
+Run unit tests
+~~~~~~~~~~~~~~
+
+Run all unit tests
+
+::
+
+    $ nosetests -s -v
+
+Run a given test
+
+::
+
+    $ nosetests tests.test_ring:test_ring -s -v
+
+Install development version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+    $ python setup.py install
+
+or
+
+::
+
+    $ sudo pip install git+https://github.com/scls19fr/pandas-buffer.git
+
+Collaborating
+~~~~~~~~~~~~~
+
+-  Fork repository
+-  Create a branch which fix a given issue
+-  Submit pull requests
 
 
 .. |Build Status| image:: https://travis-ci.org/scls19fr/pandas-buffer.svg?branch=master
