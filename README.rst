@@ -39,12 +39,12 @@ Development
 You can help to develop this library.
 
 Issues
-~~~~~~
+^^^^^^
 
 You can submit issues using https://github.com/scls19fr/pandas-buffer/issues
 
 Clone
-~~~~~
+^^^^^
 
 You can clone repository to try to fix issues yourself using:
 
@@ -53,7 +53,7 @@ You can clone repository to try to fix issues yourself using:
     $ git clone https://github.com/scls19fr/pandas-buffer.git
 
 Run unit tests
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 Run all unit tests
 
@@ -68,7 +68,7 @@ Run a given test
     $ nosetests tests.test_ring:test_ring -s -v
 
 Install development version
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ::
 
@@ -81,11 +81,13 @@ or
     $ sudo pip install git+https://github.com/scls19fr/pandas-buffer.git
 
 Collaborating
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
 
 -  Fork repository
 -  Create a branch which fix a given issue
 -  Submit pull requests
+
+https://help.github.com/categories/collaborating/
 
 
 .. |Build Status| image:: https://travis-ci.org/scls19fr/pandas-buffer.svg?branch=master
