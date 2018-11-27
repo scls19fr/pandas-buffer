@@ -90,5 +90,5 @@ Collaborating
 https://help.github.com/categories/collaborating/
 
 
-.. |Build Status| image:: https://travis-ci.org/scls19fr/pandas-buffer.svg?branch=master
-   :target: https://travis-ci.org/scls19fr/pandas-buffer
+.. |Build Status| image:: https://travis-ci.com/scls19fr/pandas-buffer.svg?branch=master
+   :target: https://travis-ci.com/scls19fr/pandas-buffer
